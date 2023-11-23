@@ -10,5 +10,5 @@ setup(
     version='0.1',
     license='MIT',
     description='Quick and dirty refactoring of https://github.com/akamaster/pytorch_resnet_cifar10 into a package',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
 )
