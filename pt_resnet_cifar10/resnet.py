@@ -84,7 +84,7 @@ class BasicBlock(nn.Module):
 
 
 class ResNet(nn.Module):
-    def __init__(self, block, num_blocks, num_classes=10, num_nodes=64):
+    def __init__(self, block=BasicBlock, num_blocks=[3,3,3], num_classes=10, num_nodes=64):
         super(ResNet, self).__init__()
         self.in_planes = 16
 
